@@ -1,0 +1,12 @@
+# En este archivo defino los datos necesarios para cambiar el modo de la tortuga
+# Al ejecutar colcon build, colcon prepara y construye los paquetes del proyecto
+# El archivo CMakeLists.txt le indica a ROS 2 que debe usar este archivo .srv
+# para generar la estructura que permite enviar una solicitud y recibir una respuesta
+# En esta práctica, la terminal envía el modo solicitado y el controlador responde
+# indicando si el cambio se realizó correctamente
+
+string modo
+bool horario
+---
+bool exito
+string mensaje

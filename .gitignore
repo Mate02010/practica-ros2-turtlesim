@@ -1,0 +1,14 @@
+# Carpetas creadas automáticamente por colcon.
+build/
+install/
+log/
+
+# Archivos temporales de Python.
+__pycache__/
+*.pyc
+
+# Configuración local del editor.
+.vscode/
+
+# Guion local usado durante las primeras comprobaciones.
+/test_turtlesim.sh
